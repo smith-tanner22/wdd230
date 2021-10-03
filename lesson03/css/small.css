@@ -23,6 +23,12 @@ main section {
 
 }
 
+img {
+    justify-content: center;
+    align-self: center;
+    padding: 20px;
+}
+
 p {
     padding: 20px;
 }
