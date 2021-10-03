@@ -1,0 +1,143 @@
+header, nav, main, footer {
+    max-width: 1200px;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main section {
+    text-align: center;
+    margin: 1rem;
+    padding: 0.5rem 1.5rem;
+}
+
+.persona-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.persona-grid section ul, .persona-grid section h4 {
+    text-align: left;
+}
+
+header, footer {
+    text-align: center;
+    padding: 0.15rem;
+    background-color: #1D3557;
+}
+
+.logo {
+    float: left;
+    height: 150px;
+    padding-left: 10px;
+}
+
+.domain {
+    align-content: center;
+}
+
+nav {
+    background-color: #A8DADC;
+    
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 10rem;
+}
+
+h2, h3, h4 {
+    font-family: 'Abel', sans-serif;
+    
+}
+
+p, nav {
+    font-family: 'Mukto', sans-serif;
+}
+
+body {
+    background-color: #F1FAEE;
+}
+
+h2  {
+    text-align: center;
+    color: #E63946;
+}
+
+h1, h3 {
+    text-align: center;
+    color: #E63946;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+nav ul {
+    color: Black;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+a:visited {
+    color: black;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 0.75em;
+    text-decoration: none;
+    font-size: 0.95rem;
+
+}
+
+nav ul li a:hover {
+    color: #F1FAEE;
+    background-color: #457B9D;
+}
+
+table {
+    font-family: 'Mukto', sans-serif;
+    border-collapse: collapse;
+    width: fit-content;
+    margin: 0.4rem auto;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: center;
+    border: 0.5px solid black;
+}
+
+/* color schemes */
+
+#color1 {
+    background-color: #E63946;
+    color: white;
+}
+
+#color2 {
+    background-color: #F1FAEE;
+}
+
+#color3 {
+    background-color: #A8DADC;
+}
+
+#color4 {
+    background-color: #457B9D;
+    color: white;
+}
+
+#color5 {
+    background-color: #1D3557;
+    color: white;
+}
+
+#color6 {
+    background-color: black;
+    color: white;
+}
