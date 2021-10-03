@@ -1,4 +1,7 @@
-header, nav, main, footer {
+header,
+nav,
+main,
+footer {
     max-width: 1200px;
 }
 
@@ -11,27 +14,30 @@ main section {
     text-align: center;
     margin: 1rem;
     padding: 0.5rem 1.5rem;
+    border: solid black;
 }
 
 .persona-grid {
     display: grid;
     grid-template-columns: 1fr;
+
 }
 
-.persona-grid section ul, .persona-grid section h4 {
-    text-align: left;
+p {
+    padding: 20px;
 }
 
-header, footer {
+.persona-grid section ul,
+.persona-grid section h4 {
+    text-align: center;
+    list-style: none;
+}
+
+header,
+footer {
     text-align: center;
     padding: 0.15rem;
     background-color: #1D3557;
-}
-
-.logo {
-    float: left;
-    height: 150px;
-    padding-left: 10px;
 }
 
 .domain {
@@ -40,7 +46,7 @@ header, footer {
 
 nav {
     background-color: #A8DADC;
-    
+
     text-align: center;
 
 }
@@ -49,12 +55,15 @@ h1 {
     font-size: 10rem;
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
     font-family: 'Abel', sans-serif;
-    
+
 }
 
-p, nav {
+p,
+nav {
     font-family: 'Mukto', sans-serif;
 }
 
@@ -62,12 +71,13 @@ body {
     background-color: #F1FAEE;
 }
 
-h2  {
+h2 {
     text-align: center;
     color: #E63946;
 }
 
-h1, h3 {
+h1,
+h3 {
     text-align: center;
     color: #E63946;
     text-shadow: 2px 2px rgb(0, 0, 0);
@@ -106,7 +116,8 @@ table {
     margin: 0.4rem auto;
 }
 
-table th, table td {
+table th,
+table td {
     padding: 15px;
     text-align: center;
     border: 0.5px solid black;
