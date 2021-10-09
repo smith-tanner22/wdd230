@@ -39,6 +39,7 @@ footer p {
 }
 
 main {
+    padding: 20px;
     background-color: #F1FAEE;
     text-align: center;
 }
