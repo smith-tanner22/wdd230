@@ -56,11 +56,13 @@ li {
 }
 
 a {
-    color: #561D25;
+    color: #bb5361;
 }
 
 a:hover {
-    color: #ECDD7B;
+    display: block;
+    background-color: black;
+    color: white;
     text-decoration: underline;
 }
 
