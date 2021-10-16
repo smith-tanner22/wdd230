@@ -1,0 +1,10 @@
+@media only screen and (min-width: 60em) {
+    .navigation a {
+        text-align: center;
+        font-size: larger;
+        
+    }
+    .weather {
+        width: 60%;
+    }
+}
