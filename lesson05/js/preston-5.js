@@ -1,5 +1,6 @@
 
 // make pancake banner work
+const date = new Date(Date.now());
 
 if (date.getDay() === 5) {
     let banner = document.createElement('div');
