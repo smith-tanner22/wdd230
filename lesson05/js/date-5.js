@@ -1,4 +1,4 @@
-const date = new Date(Date.now());
+
 const options = {
     weekday: 'long',
     day: 'numeric',
