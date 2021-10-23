@@ -7,7 +7,6 @@ const options = {
     year: 'numeric'
 };
 
-
 document.querySelector("#currentDate").textContent = date.toLocaleDateString('en-UK', options);
 
 document.querySelector("#prestonCopyrightYear").textContent = date.getFullYear();

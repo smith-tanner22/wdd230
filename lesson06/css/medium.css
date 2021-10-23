@@ -1,0 +1,48 @@
+@media only screen and (min-width: 32.5em) {
+    header img {
+        height: auto;
+        width: 200px;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    
+    .navigation a {
+        text-align: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+     .headings h1 {
+         font-size: 3rem;
+     }
+
+     h2 {
+         font-size: 2rem;
+     }
+
+     p {
+         font-size: 1.5rem;
+     }
+     
+     address {
+         font-size: 1.2rem;
+     }
+
+     .quote {
+         letter-spacing: 1.5pt;
+         font-size: larger;
+         margin-left: 1px;
+     }
+
+     footer p {
+         font-size: 16px;
+     }
+
+     nav ul { display: flex; }
+    nav ul li { flex: 1 1 100%; }
+ }
