@@ -1,5 +1,5 @@
 main {
-    font-family: Ubuntu, sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
 }
 
@@ -7,7 +7,7 @@ table {
     margin: 10px auto;
     border: 0.5px black solid;
     border-collapse: collapse;
-    box-shadow: 5px 5px 0.25rem 0.25rem #6F95AD;
+    box-shadow: 5px 5px 0.25rem #6F95AD;
 }
 
 td, th {
@@ -15,14 +15,13 @@ td, th {
     border: 0.7px lightgray solid;
     padding: 0.75rem;
 }
+
 /*1st col = #e7f0ed
 2nd col = #e7ffed
 headings = #628ca6
 title and bottom = #7fb9c2
-
-
-
 */
+
 #title, .footer_table {
     background-color: #7fb9c2;
 }
