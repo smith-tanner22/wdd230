@@ -79,6 +79,10 @@ main figure.myPhoto img {
     width: 100%;
 }
 
+figcaption {
+    padding: 10px;
+}
+
 nav ul {
     color: black;
     list-style: none;
