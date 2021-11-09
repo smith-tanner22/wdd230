@@ -8,6 +8,7 @@ img {
     width: 350px;
     height: auto;
     box-shadow: 5px 5px 5px #3E5A70;
+    padding-left: 5px;
 }
 
 header, main, footer {
@@ -24,6 +25,7 @@ header {
 
 ul {
     list-style: none;
+    
     
 }
 
@@ -53,10 +55,12 @@ h3 {
 li {
     font-family: "Didact Gothic", sans-serif;
     font-size: 2rem;
+    padding: 0.3rem;
 }
 
 a {
     color: #bb5361;
+    text-decoration: none;
 }
 
 a:hover {
