@@ -1,0 +1,494 @@
+.pancakes {
+    display: none;
+    margin: 0;
+    padding: 0.25rem 0;
+    background-color: gold;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.friday-banner {
+    background-color: gold;
+    color: black;
+    text-align: center;
+    padding: 0.75rem;
+    border: 1px solid black;
+}
+
+header img {
+    height: auto;
+    width: 150px;
+}
+
+header,
+footer {
+    background-color: #1D3557;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.active {
+    color: white;
+    background-color: #457B9D;
+    text-decoration: underline;
+
+}
+
+.headings {
+    display: flex;
+    flex-direction: column;
+}
+
+.headings h1 {
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    margin: 0 0 0 17px;
+}
+
+.quote {
+    font-style: oblique;
+    letter-spacing: 1pt;
+    margin-left: 30px;
+    color: white;
+    padding-top: 2px;
+
+}
+
+footer p {
+    font-size: 0.85rem;
+    color: white;
+    font-family: 'Mukto', sans-serif;
+    padding: 0.1rem 0.1rem;
+}
+
+main {
+    padding: 20px;
+    background-color: #F1FAEE;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+main figure.myPhoto {
+    width: 90%;
+
+}
+
+main figure.myPhoto img {
+    width: 100%;
+}
+
+figcaption {
+    padding: 10px;
+}
+
+nav ul {
+    color: black;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #A8DADC;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: 1fr;
+}
+
+.gallery-grid img[data-src] {
+    filter: blur(0.15rem);
+}
+
+.gallery-grid img {
+    filter: none;
+    transition: 0.5s;
+}
+
+.gallery-grid figure {
+    box-shadow: 0 2.5px 10px 2.5px #333;
+    margin: 0 auto;
+    max-width: fit-content;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1,
+h2 {
+    font-family: 'Abel', sans-serif;
+}
+
+
+p {
+    font-family: 'Mukto', sans-serif;
+}
+
+a:visited {
+    color: black;
+}
+
+nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 0.75em;
+    color: black;
+    text-decoration: none;
+    font-family: 'Abel', sans-serif;
+    font-size: 0.95rem;
+    transition: all .2s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #F1FAEE;
+    background-color: #457B9D;
+    transform: scale(1.2);
+}
+
+.navigation li:first-child {
+    display: block;
+}
+
+.navigation li {
+    display: none;
+}
+
+.responsive li {
+    display: block;
+}
+
+.hero-container {
+
+    position: relative;
+}
+
+picture img,
+article img {
+    width: 100%;
+    height: auto;
+    padding: 0.25rem 0;
+    margin: 0;
+}
+
+.weather {
+    position: absolute;
+    bottom: .5rem;
+    margin: 0;
+    background-color: rgba(168, 218, 220, 0.3);
+    padding: 0.25rem;
+    text-align: center;
+    gap: 0 0.25rem;
+    width: 35%;
+}
+
+.hero-img img {
+    width: 100%;
+    margin-bottom: -0.25rem;
+    height: auto;
+    
+}
+
+.weather p,
+.weather h2 {
+    margin: 0;
+    padding: 0.1rem 0;
+}
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.flex img {
+    width: 150px;
+    height: auto;
+    padding: 0.25rem;
+}
+
+.flex-col {
+    flex: 1 1 auto;
+    background-color: #bed;
+    border: 2px solid white;
+}
+
+.flex-col:hover,
+td:hover,
+.column-col:hover,
+.grid-col:hover {
+    opacity: 0.75;
+    background-color: black;
+    color: white;
+}
+
+
+.col-head {
+    display: block;
+    padding: 5px;
+    border-bottom: 1px solid #333;
+    text-align: center;
+}
+
+.contact {
+    border-top: 2px solid black;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #ea4c89;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.data {
+    display: block;
+    padding: 0 5px 5px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+footer section {
+    text-align: center;
+    padding: 5px;
+}
+
+.form-grid {
+    display: block;
+    padding: 1rem;
+    text-align: left;
+    color: white;
+    background-color: #1D3557;
+    font-family: 'Mukto', sans-serif;
+}
+
+input,
+select {
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+}
+
+label {
+    padding: 0.5rem;
+}
+
+.button {
+    font-size: 2rem;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    background-color: black;
+    border-radius: 0.25em;
+    border: #A8DADC 4px solid;
+    padding: 0.25em 1em;
+    margin-left: 5px;
+    width: 96%;
+    max-width: 500px;
+    margin-top: 10px;
+    
+}
+
+div.report-storm {
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+    padding: 0.4em 1em;
+    border: 4px solid white;
+    border-radius: 0.25em;
+    margin: 2rem;
+    transition: all .2s ease-in-out;
+}
+
+div.report-storm:hover {
+    background-color: #A8DADC;
+    color: black;
+    transform: scale(1.05);
+}
+
+div.report-storm a {
+    text-decoration: none;
+    color: white;
+}
+
+div.report-storm:hover {
+    background-color: #A8DADC;
+    border: 4px solid black;
+}
+
+div.report-storm:hover a {
+    color: black;
+}
+
+.button:hover {
+    background: #A8DADC;
+    color: black;
+
+}
+
+.storm_report {
+    max-width: 600px;
+    padding: 0.5em 1em;
+    margin: 0 auto;
+}
+
+.town-cards img {
+    max-width: 100%;
+    height: auto;
+}
+
+div.town-cards section {
+    background-color: #1E3456;
+    color: white;
+    padding: 1rem;
+    border: 4px solid black;
+    border-radius: 25px;
+    margin: 2px;
+}
+
+div.town-cards img {
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px black;
+}
+
+::placeholder {
+    opacity: 50%;
+}
+
+textarea {
+    margin-top: 0.25rem;
+    width: 100%;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: .5rem 2%;
+}
+
+#user_info label {
+    display: inline-block;
+    width: 100%;
+    max-width: 200px;
+}
+
+#storm_info input {
+    display: flex;
+    margin-left: 20px;
+    width: 100%;
+    max-width: 200px;
+}
+
+#storm_info select {
+    width: 100%;
+    max-width: 200px;
+    margin-left: 20px;
+}
+
+.comments textarea {
+    width: 100%;
+    max-width: 200px;
+    margin-left: 20px;
+}
+
+#value {
+    font-weight: bolder;
+    color: #F8B729;
+    font-size: 20px;
+}
+
+input {
+    margin: 10px;
+    padding-right: 15px;
+    width: 100%;
+}
+
+.form-grid h3 {
+    text-align: center;
+}
+
+.danger_levels {
+    border: black solid 2px;
+}
+
+
+/* trying out new way to do radio buttons */
+.radio {
+    display: block;
+    cursor: pointer;
+    user-select: none;
+    text-align: left;
+}
+
+.radio+.radio {
+    margin-top: 7px;
+}
+
+.radio_form input {
+    display: none;
+}
+
+.radio input+span {
+    display: inline-block;
+    position: relative;
+    padding-left: 20px;
+}
+
+.radio input+span:before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    border-radius: 50%;
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+.radio input+span:after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    background: #222;
+    position: absolute;
+    border-radius: 50%;
+    top: 3px;
+    left: 3px;
+    opacity: 0;
+    transform: scale(0, 0);
+    transition: all 0.2s cubic-bezier(0.64, 0.57, 0.67, 1.53);
+}
+
+.radio input:checked+span:after {
+    opacity: 1;
+    transform: scale(1, 1);
+}
