@@ -1,0 +1,84 @@
+@media only screen and (min-width: 680px) {
+    header img {
+        height: auto;
+        width: 200px;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 auto;
+    }
+    
+    .navigation a {
+        text-align: center;
+    }
+
+    .navigation li:first-child {
+        display: none;
+    }
+
+     .headings h1 {
+         font-size: 3rem;
+     }
+
+     h2 {
+         font-size: 2rem;
+     }
+
+     p {
+         font-size: 1.5rem;
+     }
+     
+     address {
+         font-size: 1.2rem;
+     }
+
+     .quote {
+         letter-spacing: 1.5pt;
+         font-size: larger;
+         margin-left: 1px;
+     }
+
+     footer p {
+         font-size: 16px;
+     }
+
+     nav ul { display: flex; }
+    nav ul li { flex: 1 1 100%; }
+
+    .comments textarea {
+        width: 100%;
+        max-width: 400px;
+        margin-left: 70px;
+    }
+
+    .button {
+        margin-left: 30px;
+        
+    }
+
+    div.town-cards section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    div.town-cards section:nth-child(odd) img {
+        grid-column: 1;
+    }
+    div.town-cards section:nth-child(odd) div {
+        grid-column: 2;
+        grid-row: 1;
+    }
+    div.report-storm {
+        font-size: 2rem;
+        position: absolute;
+        bottom: 20px;
+        right: 15px;
+        padding: 0.4em 1em;
+        border: 4px solid white;
+        border-radius: 0.25em;
+        margin: 6rem;
+        transition: all .2s ease-in-out;
+    }
+    
+ }

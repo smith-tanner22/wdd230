@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meterology & Mingle - Home</title>
+    <meta name="description" content="This is the homepage for the weather site.">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Mukta:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header>
+        <picture>
+            <img src="images/weathericon.png" alt="weather icon">
+        </picture>
+        <section class="headings">
+            <h1>Meterology & Mingle</h1>
+            <q class="quote">No matter the weather, let's celebrate together!</q>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li> <a class="ham" href="#">&#9776;</a></li>
+            <li> <a class="active" href="index.html">Home</a></li>
+            <li> <a href="preston.html">Preston</a></li>
+            <li> <a href="sodasprings.html">Soda Springs</a></li>
+            <li> <a href="fishhaven.html">Fish Haven</a></li>
+            <li> <a href="stormcenter.html">Storm Center</a></li>
+            <li> <a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="hero-container">
+            <picture class="hero-img">
+                <img src="images/valley.JPG" alt="picture of valley">
+            </picture>
+            <div class="report-storm">
+                <a href="../lesson08/stormcenter.html" class="storm-button">Report Weather</a>
+            </div>
+        </div>
+        <div class="article">
+            <h2>Article Heading</h2>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nisi ultrices, gravida urna
+                id, imperdiet justo. Maecenas magna sem, tincidunt sit amet purus eu, molestie scelerisque nunc. Sed non
+                orci id justo placerat pulvinar quis nec nisi. Donec commodo felis turpis, nec ultrices lectus eleifend
+                id. Fusce magna felis, gravida vitae arcu ut, aliquam congue risus. Sed at vehicula ante, nec tempus
+                eros. In quis commodo nisi, ut semper nunc. Ut laoreet eget nisi vitae cursus. Nullam auctor turpis
+                neque, in mollis lectus auctor sed.
+            </p>
+            <p>
+                Vestibulum id sollicitudin magna. Nullam eu risus arcu. Nulla faucibus eleifend interdum. Mauris
+                interdum enim orci, eget lacinia ex ultricies vitae. Sed elementum nunc ipsum, eget consectetur dui
+                rhoncus et. Nunc viverra sed nisl cursus sodales. Aenean et lacinia lacus, eu varius ex. Quisque laoreet
+                convallis nibh sit amet imperdiet. </p>
+        </div>
+        <div class="town-cards"></div>
+        <section class="contact">
+            <h2>Contact Information</h2>
+            <address>
+                <a href="https://www.google.com/maps/place/Franklin+County+Court+House/@42.0958946,-111.8803214,17z/data=!3m1!4b1!4m5!3m4!1s0x8754f7eb0c7c7d99:0xe1766f0a27a23fa8!8m2!3d42.0958421!4d-111.8781302"
+                    target="_blank">39 W Oneida St, Preston, ID 83263</a>
+            </address>
+            <p>
+                (555)555-5555
+            </p>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a><br>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy;<span id="copyrightYear"></span> | Meterology & Mingle | N. Tanner Smith |
+        </p>
+        <p>
+            <span id="currentDate"></span>
+        </p>
+    </footer>
+    <script defer src="js/home.js"></script>
+</body>
+
+</html>

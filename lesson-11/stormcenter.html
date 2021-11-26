@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meterology & Mingle - Storm Center</title>
+    <meta name="description" content="Can regist a storm on this page.">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Mukta:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <picture>
+            <img src="images/weathericon.png" alt="weather icon">
+        </picture>
+        <section class="headings">
+            <h1>Meterology & Mingle</h1>
+            <q class="quote">No matter the weather, let's celebrate together!</q>
+        </section>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li> <a class="ham" href="#">&#9776;</a></li>
+            <li> <a href="index.html">Home</a></li>
+            <li> <a href="preston.html">Preston</a></li>
+            <li> <a href="sodasprings.html">Soda Springs</a></li>
+            <li> <a href="fishhaven.html">Fish Haven</a></li>
+            <li> <a class="active" href="stormcenter.html">Storm Center</a></li>
+            <li> <a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="storm_report">
+            <h2>Report a Storm</h2>
+            <form action="thanks.html" method="GET" class="form-grid">
+                <div id="user_info">
+                    <h3>Contact Information</h3>
+                    <fieldset>
+                        <label class="sbs" for="full_name">Full Name
+                            <input type="text" name="full_name" id="full_name" required pattern="[A-Za-z].{5,}"
+                                placeholder="Enter your full name.">
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <label class="sbs" for="email">E-mail
+                            <input type="email" name="email" id="email" placeholder="Enter your email address.">
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <label class="sbs" for="phone">Phone Number
+                            <input type="tel" name="phone" id="phone" required placeholder="5555555555">
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <label class="sbs" for="zip">Zip Code
+                            <input type="number" name="zip" id="zip" required placeholder="Enter your zip code.">
+                        </label>
+                    </fieldset>
+                </div>
+
+                <div id="storm_info">
+                    <h3>Storm Information</h3>
+                    <fieldset>
+                        <label class="sbs" for="storm_date">Date of Storm</label>
+                        <input type="date" name="storm_date" id="storm_date">
+                    </fieldset>
+                    <fieldset>
+                        <label class="sbs" for="storm_type">Storm Type
+                            <input list="storm_options" name="storm_type" id="storm_type"
+                                placeholder="Select Storm Stype">
+                        </label>
+                        <datalist id="storm_options">
+                            <option value="Flash Flood"></option>
+                            <option value="Hail"></option>
+                            <option value="Hurricane"></option>
+                            <option value="Thunderstorm"></option>
+                            <option value="Tornado"></option>
+                        </datalist>
+                    </fieldset>
+                    <fieldset>
+                        <label class="sbs" for="storm_severity">What is the storm severity? <span id="value">2</span>
+                            <input type="range" name="storm_severity" id="storm_severity" value="2" min="1" max="10"
+                                step="1" list="ranges" oninput="toggleRating(this.value)"
+                                onchange="toggleRating(this.value)">
+                        </label>
+                        <datalist id="ranges">
+                            <option value="1"></option>
+                            <option value="2"></option>
+                            <option value="3"></option>
+                            <option value="4"></option>
+                            <option value="5"></option>
+                            <option value="6"></option>
+                            <option value="7"></option>
+                            <option value="8"></option>
+                            <option value="9"></option>
+                            <option value="10"></option>
+                        </datalist>
+                    </fieldset>
+                    <fieldset>
+                        <label class="sbs" for="storm_region">Storm Region </label>
+                        <select name="storm_region" id="storm_region" onchange="selectResponse()">
+                            <option value="" disabled selected>Select Storm Region</option>
+                            <option value="Preston">Preston</option>
+                            <option value="Soda Springs">Soda Springs</option>
+                            <option value="Fish Haven">Fish Haven</option>
+                        </select>
+                    </fieldset>
+                    <fieldset>
+                        <div class="radio_form">
+                            <span>Are you currently in danger?</span>
+                            <label class="radio">
+                                <input type="radio" name="radio" id="yes" style="display: none;" checked>
+                                <span>Yes</span>
+                            </label>
+                            <label class="radio">
+                                <input type="radio" name="radio" id="maybe" style="display: none;">
+                                <span>Maybe</span>
+                            </label>
+                            <label class="radio">
+                                <input type="radio" name="radio" id="no" style="display: none;">
+                                <span>No</span>
+                            </label>
+                        </div>
+                    </fieldset>
+
+                </div>
+
+
+                <div class="comments">
+                    <h3>Additional Information</h3>
+                    <fieldset>
+                        <label class="top" for="add_comment">Any other additional comments, add below:
+                            <textarea name="add_comment" id="add_comment" cols="30" rows="8"></textarea>
+                        </label>
+                    </fieldset>
+                </div>
+                <div id="button">
+                    <button class="button">Report Storm</button>
+                    <!--<input type="submit" name="submit" id="submit" value="Report Storm">-->
+                </div>
+            </form>
+            
+        </div>
+    </main>
+    <footer>
+
+        <p>
+            &copy;<span id="copyrightYear"></span> | Meterology & Mingle | N. Tanner Smith |
+        </p>
+        <p>
+            <span id="currentDate"></span>
+        </p>
+
+    </footer>
+    <script defer src="js/stormcenter.js"></script>
+    <script defer src="js/date-8.js"></script>
+    <script defer src="js/navigation-8.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {
+                families: [
+                    'abel'
+                ]
+            }
+        });
+    </script>
+</body>
+
+</html>
