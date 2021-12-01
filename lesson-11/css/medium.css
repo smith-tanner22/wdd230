@@ -80,5 +80,9 @@
         margin: 6rem;
         transition: all .2s ease-in-out;
     }
+
+    .gallery-grid {
+        grid-template-columns: 1fr 1fr;
+    }
     
  }

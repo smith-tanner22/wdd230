@@ -14,4 +14,7 @@
     div.town-cards section {
         display: block;
     }
+    .gallery-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }

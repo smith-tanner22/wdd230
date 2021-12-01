@@ -39,9 +39,11 @@
         </ul>
     </nav>
     <main>
-        <div class="hero-container">
-            <picture class="hero-img">
-                <img src="images/valley.JPG" alt="picture of valley">
+        <div class="herocontainer">
+            <picture>
+                <source srcset="images/home_med_600.jpg" media="(min-width: 600px) and (max-width: 899px)">
+                <source srcset="images/home_large_900.JPG" media="(min-width: 900px)">
+                <img src="images/home_small_375.JPG" alt="Idaho lake">
             </picture>
             <div class="report-storm">
                 <a href="../lesson08/stormcenter.html" class="storm-button">Report Weather</a>
@@ -72,9 +74,9 @@
             <p>
                 (555)555-5555
             </p>
-            <a href="#" class="fa fa-facebook"></a>
-            <a href="#" class="fa fa-twitter"></a>
-            <a href="#" class="fa fa-instagram"></a><br>
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a><br>
         </section>
     </main>
     <footer>
@@ -86,6 +88,7 @@
         </p>
     </footer>
     <script defer src="js/home.js"></script>
+    <script defer src="js/date.js"></script>
 </body>
 
 </html>
