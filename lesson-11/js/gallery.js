@@ -36,30 +36,3 @@ if ('IntersectionObserver' in window) {
         loadImages(img);
     });
 }
-
-// local storage
-const daySinceLastVisit = document.querySelector('#gallery-last-visited');
-
-function setDateLastVisited() {
-    localStorage.setItem('dateLastVisited', date);
-}
-
-function getDateLastVisited(daySinceLastVisit) {
-    try {
-        const millisecondsToDays = 8640000;
-        const lastVisit = localStorage.getItem('dateLastVisited') || date;
-        const days = Math.round((lastVisit - date) / millisecondsToDays);
-
-        if (days > 0) {
-            daySinceLastVisit.textContent = days;
-        } else {
-            daySinceLastVisit.textContent = 0;
-        }
-    }
-    catch(er) {
-        daySinceLastVisit.textContent = 0;
-    }
-}
-
-getDateLastVisited(daySinceLastVisit)
-setDateLastVisited()
