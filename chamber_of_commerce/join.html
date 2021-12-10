@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join Us</title>
+    <meta name="description" content="Contains information about the benefit of joining the chamber and member application form">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+    <nav role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+            <ul id="menu">
+                <a href="index.html">
+                    <li>Home</li>
+                </a>
+                <a href="city.html">
+                    <li>About Thatcher</li>
+                </a>
+                <a class="active" href="join.html">
+                    <li>Join Us</li>
+                </a>
+                <a href="directory.html">
+                    <li>Directory</li>
+                </a>
+                <a href="contact.html">
+                    <li>Contact</li>
+                </a>
+            </ul>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <header>
+        <div class="title">
+            <h1>Thatcher Arizona Chamber of Commerce</h1>
+            <img src="images/thatcherLogo-300x250.jpg" alt="logo of thatcher">
+        </div>
+    </header>
+    <main>
+        <h2>Join Us!</h2>
+        <p>There are many benefits to joining the Chamber of Commerce</p>
+        <ul>
+            <li>Make business contacts</li>
+            <li>Receive chamber newsletters</li>
+            <li>Acquire customer referrals</li>
+            <li>Bring credibility to your business</li>
+            <li>Increase your visibility in the community</li>
+            <li>Networking opportunities</li>
+            <li>Gain a voice in governemnt</li>
+        </ul>
+        <img src="images/frommoutiain.jpeg" alt="">
+        <p>Please fill out the following form to add your business!</p>
+        <form action="thankyou.html" method="GET" class="form-grid">
+            <h3>Contact information</h3>
+            <label for="first_name">First Name
+                <input type="text" name="first_name" id="first_name" required pattern="[A-Za-z].{5,}" placeholder="Joe">
+            </label>
+            <br>
+            <label for="last_name">Last Name
+                <input type="text" name="last_name" id="last_name" required pattern="[A-Za-z].{5,}" placeholder="Smith">
+            </label>
+            <br>
+            <label for="job_title">Title
+                <input type="text" name="job_title" id="job_title" placeholder="(optional)">
+            </label>
+            <br>
+            <label for="email">Email
+                <input type="email" name="email" id="email" required placeholder="example@gmail.com">
+            </label>
+            <br>
+            <label for="phone">Cell Phone
+                <input type="number" name="phone" id="phone" placeholder="(xxx)xxx-xxxx">
+            </label>
+            <br>
+            <label for="business_name">Business Name
+                <input type="text" name="business_name" id="business_name" required placeholder="Coca-Cola">
+            </label>
+            <br>
+            <label for="business_address">Business Address
+                <input type="text" name="business_address" id="business_address" placeholder="(optional)">
+            </label>
+            <br>
+            <label for="business_website">Business Website
+                <input type="url" name="business_website" id="business_website" placeholder="(optional)">
+            </label>
+            <br>
+            <label for="business_description">Business Description
+                <input type="text" name="business_description" id="business_description" placeholder="(optional)">
+            </label>
+            <br>
+            <label class="sbs" for="membership">Please select a membership level
+                <input type="range" name="membership" id="membership" value="1" min="1" max="4"
+                step="1" list="ranges" oninput="toggleSelection(this.value)"
+                onchange="toggleSelection(this.value)">
+            </label>
+            <datalist id="ranges">
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
+                <option value="4"></option>
+            </datalist>
+        </form>
+    </main>
+    <footer>
+            <div class="contact-info">
+                <a href="https://www.google.com/maps/place/Thatcher+City+Hall/@32.8497552,-109.768326,15z/data=!4m5!3m4!1s0x0:0x48351bf56147c7b1!8m2!3d32.8493969!4d-109.7621189"
+                    target="_blank" rel="noopener">
+                    <img src="images/map.jpg" alt="map of townhall"></a>
+                <h3>Contact Info</h3>
+                <p>🧭 3700 W Main St, Thatcher, AZ 85552</p>
+                <p>📱 +1 (928) 428-2290</p>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener"><img src="images/facebook.png"
+                        alt="facebook icon"></a>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener"><img src="images/instagram.png"
+                        alt="instagram icon"></a>
+            </div>
+    </footer>
+</body>
+</html>

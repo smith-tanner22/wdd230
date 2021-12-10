@@ -1,0 +1,68 @@
+{
+    "businesses" : [
+        {
+            "name" : "La Casita",
+            "address" : "3338 W Main St, Thatcher, AZ 85552",
+            "phone" : "(928) 428-1882",
+            "owners" : "Ray and Lorraine Villalobos",
+            "website" : "https://www.facebook.com/La-Casita-Cafe-116026495086873/",
+            "logo" : "images/lacasita_logo.jpeg"
+        },
+        {
+            "name" : "R&R Pizza Express",
+            "address" : "2646 E U.S. Hwy 70, Thatcher, AZ 85552",
+            "phone" : "(928) 428-7775",
+            "owners" : "Roger Daley & Rob Pursley",
+            "website" : "https://www.rrpizzaexpress.com/",
+            "logo" : "images/randrlogo.png"
+        },
+        {
+            "name" : "Goodman Healthcare",
+            "address" : "3910 W Main St, Thatcher, AZ 85552",
+            "phone" : "(928) 348-8997",
+            "owners" : "Kenny Goodman",
+            "website" : "https://www.goodmanhealthcare.com/contact-us/?UTM_source=GB",
+            "logo" : "images/goodmanlogo.png"
+        },
+        {
+            "name" : "Carter's Custom Cuts",
+            "address" : "4155 W Frye Mesa Rd, Thatcher, AZ 85552",
+            "phone" : "(928) 428-0556",
+            "owners" : "Bryce Carter",
+            "website" : "https://carterscustomcuts.com/",
+            "logo" : "images/carterslogo.jpeg"
+        },
+        {
+            "name" : "Lee's Rite-Way Market",
+            "address" : "2910 US-70 B, Thatcher, AZ 85552",
+            "phone" : "(928) 428-4120",
+            "owners" : "Denise Jacobs",
+            "website" : "https://www.leesritewaymarket.net/",
+            "logo" : "images/leeslogo.png"
+        },
+        {
+            "name" : "Kainoa's Hawaiian Grill",
+            "address" : "3533 US-70, Thatcher, AZ 85552",
+            "phone" : "(928) 792-2118",
+            "owners" : "Eric Blair",
+            "website" : "https://www.kainoasgrill.com/menu-2/",
+            "logo" : "images/kainoaslogo.jpeg"
+        },
+        {
+            "name" : "Brotein Shakes",
+            "address" : "3888 W Main St, Thatcher, AZ 85552",
+            "phone" : "(928) 322-2212",
+            "owners" : "David Palmer",
+            "website" : "https://broteinshakesandbowls.com/",
+            "logo" : "images/broteinlogo.jpeg"
+        },
+        {
+            "name" : "Gila Valley Polaris",
+            "address" : "3660 W Main St, Thatcher, AZ 85552",
+            "phone" : "(928) 428-4694",
+            "owners" : "Lance Shupe",
+            "website" : "https://www.gilavalleypolaris.com/",
+            "logo" : "images/polarislogo.png"
+        }
+    ]
+}
