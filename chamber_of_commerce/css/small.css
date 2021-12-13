@@ -17,7 +17,6 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    z-index: -1;
     
 }
 
@@ -28,7 +27,62 @@ body {
     
 }
 
+header {
+    position: relative;
+}
 
+.title_content {
+    text-align: center;
+    
+    
+    padding-right: 1px;
+    
+    padding-top: 100px;
+    
+    font-size: 1rem;
+    text-shadow:  0 0 30px black, 0 0 40px black, 0 0 50px black, 0 0 60px black, 0 0 70px black
+}
+
+
+.thatcherLogo {
+    position: relative;
+    border-radius: 25px;
+    width: 100%;
+    max-width: 200px;
+    
+}
+
+div.join-us {
+    font-size: 1.2rem;
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+    padding: 0.4em 1em;
+    border: 4px solid white;
+    border-radius: 0.25em;
+    margin: 2rem;
+    transition: all .2s ease-in-out;
+}
+
+div.join-us:hover {
+    background-color: #004F2D;
+    color: black;
+    transform: scale(1.05);
+}
+
+div.join-us a {
+    text-decoration: none;
+    color: white;
+}
+
+div.join-us:hover {
+    background-color: #004F2D;
+    border: 4px solid black;
+}
+
+div.join-us:hover a {
+    color: white;
+}
 
 /* Hamburger menu and nav animations ************************/
 #menuToggle {
@@ -70,11 +124,12 @@ body {
 /* hamburger */
 #menuToggle span {
     display: block;
-    width: 33px;
-    height: 4px;
+    width: 40px;
+    height: 7px;
     margin-bottom: 5px;
     position: relative;
-    background: #BAC1B8;
+    background: black;
+    
     border-radius: 3px;
     z-index: 1;
     transform-origin: 4px 0px;
@@ -98,21 +153,19 @@ body {
     background: #232323;
 }
 
-/* But let's hide the middle one. */
+/* hiding the middle one */
 #menuToggle input:checked~span:nth-last-child(3) {
     opacity: 0;
     transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-/*
- * Ohyeah and the last one should go the other direction
- */
+/* last one goes different direction */
 #menuToggle input:checked~span:nth-last-child(2) {
     transform: rotate(-45deg) translate(0, -1px);
 }
 
 /* Make this absolute positioned
- * at the top left of the screen */
+at the top left of the screen */
 #menu {
     position: absolute;
     width: 200px;
@@ -133,11 +186,10 @@ body {
     font-size: 22px;
 }
 
-/* And let's slide it in from the left */
+/* slidesin from the left */
 #menuToggle input:checked~ul {
     transform: none;
 }
-
 
 /* show and hide the weather summary ***************************/
 .showHide {
@@ -170,12 +222,46 @@ body {
 }
 
 .ads {
-    width: 184px;
-    height: 246px;
+    
+    display: none;
 }
+
+
+
+
+/* main ***********************************************/
+
+.main-grid {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.temple {
+    justify-self: center;
+    padding-bottom: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 8px;
+    background-color: #004F2D;
+}
+
+/* Footer ********************************************/
+.footer-grid {
+    text-align: center;
+    display: block;
+}
+
+
 
 .map {
     width: 616px;
     height: 394px;
 }
-
