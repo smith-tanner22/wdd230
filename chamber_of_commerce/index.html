@@ -18,12 +18,12 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <script defer src="js/home.js"></script>
+    <script defer src="js/weather.js"></script>
 
 </head>
 
 <body>
-    <img src="images/cottonfields.jpg" alt="picture of cotton fields">
-    <div class="hero-image">
+    <div class="hero-image"></div>
         <div class="hero-text">
     <nav role="navigation">
         <div id="menuToggle">
@@ -53,6 +53,11 @@
     <br>
     <br>
     <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <header>
         <div class="title">
             <h1>Thatcher Arizona Chamber of Commerce</h1>
@@ -71,10 +76,16 @@
                 <p></p>
             </div>
         </div>
-        <img src="images/polarisAd.jpg" alt="polaris ad">
+        
         <div class="join-us">
             <a href="join.html" class="join-button">Join Us Today!</a>
         </div>
+        
+        <img class="ads" src="images/lacasitaAd.jpg" alt="la casita ad">
+        <img class="ads" src="images/polarisAd.jpg" alt="polaris ad">
+        <img class="ads" src="images/randrAd.jpg" alt="R&R ad">
+        
+        
         <h2>Our Mission</h2>
         <p>
             The mission of the Thatcher Arizona Chamber of Commerce is to advance the quality of life for everyone in
@@ -87,7 +98,6 @@
             dreams
             to become successful realities.</p>
         <img src="images/park.jpg" alt="">
-        <img src="images/lacasitaAd.jpg" alt="la casita ad">
 
         <h2>Upcoming Events</h2>
         <p>Dec. 14: Planning & Zoning Public Hearing</p>
@@ -96,26 +106,34 @@
         <p>Dec. 25: Christmas Day</p>
         <p>Dec. 30: Gila Valley New Year's Balloon Extravaganza</p>
         <img src="images/randrexpressAd.jpg" alt="r&r express pizza ad">
+        <section class="weather">
         <h3>Current Weather</h3>
                 <p>Currently:</p> <span class="current_temp"></span>
                 <p>Temperature:</p> <span class="temperature"></span>&#176;F
                 <p>Feels like:</p> <span class="windchill"></span>&#176;
                 <p>Humidity:</p> <span class="humidity"></span>%
+            </section>
+            <section class="forecast">
+                <h2>Three Day Forecast</h2>
+                <div class="flex"></div>
 
+            </section>
     </main>
     <footer>
         <div class="contact-info">
             <a href="https://www.google.com/maps/place/Thatcher+City+Hall/@32.8497552,-109.768326,15z/data=!4m5!3m4!1s0x0:0x48351bf56147c7b1!8m2!3d32.8493969!4d-109.7621189"
                 target="_blank" rel="noopener">
-                <img src="images/map.jpg" alt="map of townhall"></a>
+                <img class="map" src="images/map.jpg" alt="map of townhall"></a>
             <h3>Contact Info</h3>
             <p>🧭 3700 W Main St, Thatcher, AZ 85552</p>
             <p>📱 +1 (928) 428-2290</p>
-            <a href="https://www.facebook.com" target="_blank" rel="noopener"><img src="images/facebook.png"
+            <a href="https://www.facebook.com" target="_blank" rel="noopener"><img src="images/facebook.jpg"
                     alt="facebook icon"></a>
             <a href="https://www.instagram.com" target="_blank" rel="noopener"><img src="images/instagram.png"
                     alt="instagram icon"></a>
         </div>
+        <p>&copy; <span id="currentdate2"></span> N. Tanner Smith</p>
+        <p>Last updated: <span id="lastmodified"></span></p>
     </footer>
 </body>
 

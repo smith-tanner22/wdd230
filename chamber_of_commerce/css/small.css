@@ -8,14 +8,27 @@ body {
     font-family: "Avenir Next", "Avenir", sans-serif;
 }
 
+
+
 .hero-image {
-    background-image: url("images/cottonfields.jpg");
+    background-image: url("../images/cottonfields.jpg");
     height: 500px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    z-index: -1;
+    
 }
+
+.hero-text {
+    padding: 5px;
+    position: absolute;
+    z-index: 2;
+    
+}
+
+
 
 /* Hamburger menu and nav animations ************************/
 #menuToggle {
@@ -155,3 +168,14 @@ body {
 .showHide a:hover {
     text-decoration: underline;
 }
+
+.ads {
+    width: 184px;
+    height: 246px;
+}
+
+.map {
+    width: 616px;
+    height: 394px;
+}
+

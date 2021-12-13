@@ -6,7 +6,7 @@
             "phone" : "(928) 428-1882",
             "owners" : "Ray and Lorraine Villalobos",
             "website" : "https://www.facebook.com/La-Casita-Cafe-116026495086873/",
-            "logo" : "images/lacasita_logo.jpeg"
+            "logo" : "images/lacasita_logo.jpg"
         },
         {
             "name" : "R&R Pizza Express",
@@ -14,7 +14,7 @@
             "phone" : "(928) 428-7775",
             "owners" : "Roger Daley & Rob Pursley",
             "website" : "https://www.rrpizzaexpress.com/",
-            "logo" : "images/randrlogo.png"
+            "logo" : "images/randrlogo.jpg"
         },
         {
             "name" : "Goodman Healthcare",
@@ -22,7 +22,7 @@
             "phone" : "(928) 348-8997",
             "owners" : "Kenny Goodman",
             "website" : "https://www.goodmanhealthcare.com/contact-us/?UTM_source=GB",
-            "logo" : "images/goodmanlogo.png"
+            "logo" : "images/goodmanlogo.jpg"
         },
         {
             "name" : "Carter's Custom Cuts",
@@ -30,7 +30,7 @@
             "phone" : "(928) 428-0556",
             "owners" : "Bryce Carter",
             "website" : "https://carterscustomcuts.com/",
-            "logo" : "images/carterslogo.jpeg"
+            "logo" : "images/carterslogo.jpg"
         },
         {
             "name" : "Lee's Rite-Way Market",
@@ -38,7 +38,7 @@
             "phone" : "(928) 428-4120",
             "owners" : "Denise Jacobs",
             "website" : "https://www.leesritewaymarket.net/",
-            "logo" : "images/leeslogo.png"
+            "logo" : "images/leeslogo.jpg"
         },
         {
             "name" : "Kainoa's Hawaiian Grill",
@@ -46,7 +46,7 @@
             "phone" : "(928) 792-2118",
             "owners" : "Eric Blair",
             "website" : "https://www.kainoasgrill.com/menu-2/",
-            "logo" : "images/kainoaslogo.jpeg"
+            "logo" : "images/kainoaslogo.jpg"
         },
         {
             "name" : "Brotein Shakes",
@@ -54,7 +54,7 @@
             "phone" : "(928) 322-2212",
             "owners" : "David Palmer",
             "website" : "https://broteinshakesandbowls.com/",
-            "logo" : "images/broteinlogo.jpeg"
+            "logo" : "images/broteinlogo.jpg"
         },
         {
             "name" : "Gila Valley Polaris",
@@ -62,7 +62,7 @@
             "phone" : "(928) 428-4694",
             "owners" : "Lance Shupe",
             "website" : "https://www.gilavalleypolaris.com/",
-            "logo" : "images/polarislogo.png"
+            "logo" : "images/polarislogo.jpg"
         }
     ]
 }
