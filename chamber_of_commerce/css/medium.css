@@ -27,6 +27,7 @@
         padding: 20px;
     }
 
+    /* Home page CSS grid *******/
     .ads {
         display: block;
         width: 184px;
@@ -95,4 +96,137 @@
         grid-column-end: 4;
         grid-row-start: 5;
     }
+
+    /* contact page CSS grid ***********/
+    .questions {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .let_us {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 2;
+    }
+
+    .contact_form {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        padding-bottom: 50px;
+    }
+
+    /* city *****************/
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+        position: relative;
+        opacity: .65;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .bgimg-1 {
+        background-image: url(../images/mtgrahamhd.jpg);
+        min-height: 400px;
+    }
+    
+    .bgimg-2 {
+        background-image: url(../images/eac.jpeg);
+        min-height: 400px;
+    }
+    
+    .bgimg-3 {
+        background-image: url(../images/cotton.jpeg);
+        
+        min-height: 400px;
+    }
+    
+    .bgimg-4 {
+        background-image: url(../images/golfcourse.jpg);
+        min-height: 400px;
+    }
+
+    .caption {
+        position: absolute;
+        left: 0;
+        top: 50%;
+        width: 100%;
+        text-align: center;
+
+    }
+    
+    .caption span.border {
+        background-color: black;
+        color: white;
+        padding: 18px;
+        font-size: 25px;
+        letter-spacing: 10px;
+    }
+
+    .city-content {
+        color: white;
+        background-color: #282E34;
+        text-align: center;
+        padding: 50px 80px;
+        text-align: justify;
+        font-size: 1.5rem;
+
+    }
+    /* Directory **********************/
+    .cards {
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .cards {
+        float: left;
+        width: 50%;
+        padding: 10px;
+    }
+
+    .cards:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    /* Join page css grid **************/
+    .join {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        font-size: 1.5em;
+    }
+
+    .benefits {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        font-size: 1.2em;
+        
+        text-align: left;
+        justify-self: center;
+    }
+
+    .benefits2 {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        font-size: 1.2em;
+        
+        
+        text-align: left;
+        justify-self: center;
+    }
+
+    .contact-info {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+    }
+
+    .business-info {
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+
 }

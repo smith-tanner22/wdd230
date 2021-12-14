@@ -30,6 +30,7 @@
     #laad {
         grid-column-start: 1;
         grid-column-end: 2;
+        justify-self: center;
         padding-left: 10px;
     }
 
@@ -37,6 +38,7 @@
         grid-column-start: 1;
         grid-column-end: 2;
         grid-row-start: 3;
+        justify-self: center;
         padding-left: 10px;
     }
 
@@ -69,7 +71,8 @@
         grid-column-start: 2;
         grid-column-end: 5;
         grid-row-start: 3;
-        font-size: 1.1em;
+        font-size: 1.2em;
+        justify-self: center;
     }
 
     .temple {
@@ -89,6 +92,69 @@
         grid-column-end: 5;
         grid-row-start: 5;
     }
+
+    /* contact page CSS grid ***********/
+    .questions {
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+    .let_us {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 2;
+    }
+
+    .contact_form {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        padding-bottom: 50px;
+    }
+    /* Directory **********************/
+    .cards {
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+    /* Join page css grid **************/
+    .join {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        font-size: 1.5em;
+    }
+
+    .benefits {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        font-size: 1.2em;
+        border-bottom: solid black 5px;
+        text-align: left;
+    }
+
+    .benefits2 {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        font-size: 1.2em;
+        border-bottom: solid black 5px;
+        text-align: left;
+    }
+
+    .contact-info {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 3;
+    }
+
+    .business-info {
+        grid-column-start: 3;
+        grid-column-end: 5;
+    }
+
+    
+
+
 }
 
 @media only screen and (min-width: 1041px) {

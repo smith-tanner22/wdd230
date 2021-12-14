@@ -47,30 +47,43 @@
                         </ul>
                     </div>
                 </nav>
-                <section>
+                <div>
                     <div class="title_content">
-                        <img class="thatcherLogo" src="images/thatcherLogo-300x250.jpg" alt="logo of thatcher">
+                        <a href="https://smith-tanner22.github.io/wdd230/chamber_of_commerce/"
+                rel="noopener">
+                <img class="thatcherLogo" src="images/thatcherLogo-300x250.jpg" alt="logo of thatcher"></a>
                         <h1 class="title">Thatcher Arizona Chamber of Commerce</h1>
                     </div>
-                </section>
+                </div>
             </div>
     </header>
     <main>
+        <div class="main-grid">
+            <div class="join">
         <h2>Join Us!</h2>
         <p>There are many benefits to joining the Chamber of Commerce</p>
+        </div>
+        <div class="benefits">
         <ul>
             <li>Make business contacts</li>
             <li>Receive chamber newsletters</li>
             <li>Acquire customer referrals</li>
+            <li>Receive member only discounts</li>
+        </ul>
+        </div>
+        <div class="benefits2">
+        <ul>
             <li>Bring credibility to your business</li>
             <li>Increase your visibility in the community</li>
             <li>Networking opportunities</li>
             <li>Gain a voice in governemnt</li>
         </ul>
-        <img src="images/frommoutiain.jpeg" alt="">
-        <p>Please fill out the following form to add your business!</p>
-        <form action="thankyou.html" method="GET" class="form-grid">
+        </div>
+        
+        
+        <form action="thankyou.html" method="GET" class="contact-info">
             <h3>Contact information</h3>
+            
             <label for="first_name">First Name
                 <input type="text" name="first_name" id="first_name" required pattern="[A-Za-z].{5,}" placeholder="Joe">
             </label>
@@ -91,6 +104,10 @@
                 <input type="number" name="phone" id="phone" placeholder="(xxx)xxx-xxxx">
             </label>
             <br>
+            </form>
+            <form action="thankyou.html" class="business-info">
+                <h3>Business Information</h3>
+            
             <label for="business_name">Business Name
                 <input type="text" name="business_name" id="business_name" required placeholder="Coca-Cola">
             </label>
@@ -107,8 +124,8 @@
                 <input type="text" name="business_description" id="business_description" placeholder="(optional)">
             </label>
             <br>
-            <label class="sbs" for="membership">Please select a membership level
-                <input type="range" name="membership" id="membership" value="1" min="1" max="4"
+            <label class="sbs" for="membership">Please select a membership level &nbsp &nbsp<span id="value">2</span>
+                <input type="range" name="membership" id="membership" value="2" min="1" max="4"
                 step="1" list="ranges" oninput="toggleSelection(this.value)"
                 onchange="toggleSelection(this.value)">
             </label>
@@ -118,10 +135,17 @@
                 <option value="3"></option>
                 <option value="4"></option>
             </datalist>
-            <button class="submit_btn">Submit</button>
+            
+           
         </form>
+        
+        </div>
+        <div class="s_btn">
+        <button>Submit</button>
+        </div>
     </main>
     <footer>
+        <div class="footer-grid">
             <div class="contact-info">
                 <a href="https://www.google.com/maps/place/Thatcher+City+Hall/@32.8497552,-109.768326,15z/data=!4m5!3m4!1s0x0:0x48351bf56147c7b1!8m2!3d32.8493969!4d-109.7621189"
                     target="_blank" rel="noopener">
@@ -136,6 +160,7 @@
             </div>
             <p>&copy; <span id="currentdate2"></span> N. Tanner Smith</p>
         <p>Last updated: <span id="lastmodified"></span></p>
+        </div>
     </footer>
 </body>
 </html>

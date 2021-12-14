@@ -47,18 +47,21 @@
                         </ul>
                     </div>
                 </nav>
-                <section>
+                <div>
                     <div class="title_content">
-                        <img class="thatcherLogo" src="images/thatcherLogo-300x250.jpg" alt="logo of thatcher">
+                        <a href="https://smith-tanner22.github.io/wdd230/chamber_of_commerce/"
+                rel="noopener">
+                <img class="thatcherLogo" src="images/thatcherLogo-300x250.jpg" alt="logo of thatcher"></a>
                         <h1 class="title">Thatcher Arizona Chamber of Commerce</h1>
                     </div>
-                </section>
+                </div>
             </div>
     </header>
     <main>
-        <h2>Any questions, comments, or concerns?</h2>
-        <h3>Let us know down below!</h3>
-
+        <div class="main-grid">
+        <h2 class="questions">Any questions, comments, or concerns?</h2>
+        <h3 class="let_us">Let us know down below!</h3>
+            <div class="contact_form">
         <form action="thankyou.html">
             <label for="name">Full Name</label>
             <input type="text" id="name" name="name" placeholder="Joe Smith"><br>
@@ -70,8 +73,11 @@
             <textarea name="comment" id="comment" cols="30" rows="5" placeholder="Write something..."></textarea><br>
             <button class="submit_btn">Submit</button>
         </form>
+        </div>
+        </div>
     </main>
     <footer>
+        <div class="footer-grid">
             <div class="contact-info">
                 <a href="https://www.google.com/maps/place/Thatcher+City+Hall/@32.8497552,-109.768326,15z/data=!4m5!3m4!1s0x0:0x48351bf56147c7b1!8m2!3d32.8493969!4d-109.7621189"
                     target="_blank" rel="noopener">
@@ -86,6 +92,7 @@
             </div>
             <p>&copy; <span id="currentdate2"></span> N. Tanner Smith</p>
         <p>Last updated: <span id="lastmodified"></span></p>
+        </div>
     </footer>
 </body>
 </html>

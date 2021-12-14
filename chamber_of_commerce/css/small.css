@@ -29,16 +29,13 @@ body {
 
 header {
     position: relative;
+    border-bottom: solid black 10px;
 }
 
 .title_content {
     text-align: center;
-    
-    
     padding-right: 1px;
-    
     padding-top: 100px;
-    
     font-size: 1rem;
     text-shadow:  0 0 30px black, 0 0 40px black, 0 0 50px black, 0 0 60px black, 0 0 70px black
 }
@@ -229,8 +226,10 @@ at the top left of the screen */
 
 
 
+
 /* main ***********************************************/
 
+/* home ****/
 .main-grid {
     text-align: center;
     display: grid;
@@ -253,15 +252,160 @@ td, th {
     background-color: #004F2D;
 }
 
+/* contact *****/
+label {
+    display: inline-block;
+    padding: 20px;
+    width: 150px;
+    
+}
+
+input {
+    padding: 10px;
+    margin: 10px;
+}
+
+.contact_form {
+    padding-bottom: 50px;
+}
+
+button {
+    font-size: 1.2rem;
+    position: absolute;
+    
+
+    border: 4px solid white;
+    border-radius: 0.25em;
+    
+    transition: all .2s ease-in-out;
+}
+
+button:hover {
+    background-color: #004F2D;
+    color: black;
+    transform: scale(1.05);
+}
+
+button:hover {
+    background-color: #004F2D;
+    border: 4px solid black;
+}
+
+/* city ******/
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    position: relative;
+    opacity: .65;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimg-1 {
+    background-image: url(../images/mtgrahamhd.jpg);
+    min-height: 400px;
+}
+
+.bgimg-2 {
+    background-image: url(../images/eac.jpeg);
+    min-height: 400px;
+}
+
+.bgimg-3 {
+    background-image: url(../images/cotton.jpeg);
+    
+    min-height: 400px;
+}
+
+.bgimg-4 {
+    background-image: url(../images/golfcourse.jpg);
+    min-height: 400px;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+
+}
+
+.caption span.border {
+    background-color: black;
+    color: white;
+    padding: 3px;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+.city-content {
+    color: white;
+    background-color: #282E34;
+    text-align: center;
+    padding: 50px 80px;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+/* Directory *********************/
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+    padding: 0.75em;
+    text-align: center;
+}
+
+section {
+    border: 5px solid black;
+    border-radius: 25px;
+    transition: all .2s ease-in-out;
+}
+
+section:hover {
+    transform: scale(1.05);
+}
+
+/** join ****************************/
+#value {
+    font-weight: bolder;
+    color: #F8B729;
+    font-size: 20px;
+}
+
+::placeholder {
+    opacity: 50%;
+}
+
+.contact-info, .business-info {
+    display: block;
+}
+
+.s_btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+
 /* Footer ********************************************/
 .footer-grid {
     text-align: center;
     display: block;
 }
 
-
-
 .map {
     width: 616px;
     height: 394px;
+}
+
+a img{
+    transition: all .2s ease-in-out;
+}
+
+a img:hover {
+    transform: scale(1.05);
 }
