@@ -288,12 +288,14 @@ td, th {
 
 .weather-container-grid {
     display: grid;
-    grid-gap: 1rem;;
+    grid-gap: 1rem;
+    
 }
 
 .weather-grid {
     grid-template-columns: 1fr;
     padding: 0.5rem;
+    
 }
 
 /* contact *****/
@@ -453,6 +455,7 @@ section {
     border: 5px solid black;
     border-radius: 25px;
     transition: all .2s ease-in-out;
+    background-color: #004F2D;
 }
 
 section:hover {
