@@ -32,7 +32,7 @@ fetch(requestURL)
             card.appendChild(b_website);
             card.appendChild(ex_image);
 
-            document.querySelector('div.cards').appendChild(card);
+            document.querySelector('div.directory').appendChild(card);
 
         }
     });

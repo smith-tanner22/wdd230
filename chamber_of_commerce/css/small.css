@@ -2,7 +2,6 @@ body {
     margin: 0;
     padding: 0;
 
-    /* make it look decent enough */
     background: #3A3335;
     color: #cdcdcd;
     font-family: "Avenir Next", "Avenir", sans-serif;
@@ -252,6 +251,53 @@ td, th {
     background-color: #004F2D;
 }
 
+.weather p, .weather h2 {
+    margin: 0;
+    padding: 0.1rem 0;
+}
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.weather, .forecast{
+    font-size: 2rem;
+    padding: 20px;
+}
+
+
+.condition, .temperature, .humidity {
+    font-size: 3rem;
+    color: #F18805;
+}
+
+.data {
+    padding-bottom: 0.5rem;
+    color: #F18805;
+}
+/*
+.weather-info
+
+.data
+*/
+.flex-col {
+    border: 4px solid black;
+    flex: 1 1 auto;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.weather-container-grid {
+    display: grid;
+    grid-gap: 1rem;;
+}
+
+.weather-grid {
+    grid-template-columns: 1fr;
+    padding: 0.5rem;
+}
+
 /* contact *****/
 label {
     display: inline-block;
@@ -349,12 +395,22 @@ button:hover {
 }
 
 /* Directory *********************/
-.cards {
+.directory {
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 1rem;
     padding: 0.75em;
     text-align: center;
+}
+
+.grid-button, .list-button {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.list-button {
+    margin-left: 20px;
+    padding: 20px;
 }
 
 section {
@@ -389,6 +445,13 @@ section:hover {
     text-align: center;
     margin-bottom: 50px;
     
+}
+
+/* thankyou **************************/
+.thankyou {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    padding-bottom: 50px;
 }
 
 /* Footer ********************************************/

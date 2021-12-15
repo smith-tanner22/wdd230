@@ -1,19 +1,9 @@
-// get elemets with class = column
-var elements = document.getElementsByName('section');
+document.querySelector('.grid-button').addEventListener('click', () => {
+    document.querySelector('.directory').classList.add('grid-layout');
+    document.querySelector('.directory').classList.remove('list-layout');
+}, false);
 
-// declar a loop variable
-var i;
-
-// list view
-function listView() {
-    for (i = 0; i < elements.length; i++) {
-        elements[i].style.width = "100%";
-    }
-}
-
-// grid view
-function gridView() {
-    for (i = 0; i < elements.length; i++) {
-        elements[i].style.width = "50%;"
-    }
-}
+document.querySelector('.list-button').addEventListener('click', () => {
+    document.querySelector('.directory').classList.add('list-layout');
+    document.querySelector('.directory').classList.remove('grid-layout');
+}, false);

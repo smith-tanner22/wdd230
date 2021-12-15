@@ -112,9 +112,8 @@
         padding-bottom: 50px;
     }
     /* Directory **********************/
-    .cards {
-        grid-template-columns: 1fr 1fr 1fr;
-
+    .directory {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
     /* Join page css grid **************/

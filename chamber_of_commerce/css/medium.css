@@ -85,17 +85,12 @@
         grid-row-start: 4;
         justify-self: center;
     }
-    .weather {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 5;
-    }
 
-    .forecast {
-        grid-column-start: 2;
-        grid-column-end: 4;
-        grid-row-start: 5;
+    .weather-grid {
+        grid-template-columns: 1fr 1fr;
+        padding: 0.5rem;
     }
+    
 
     /* contact page CSS grid ***********/
     .questions {
@@ -174,23 +169,27 @@
 
     }
     /* Directory **********************/
-    .cards {
+    .directory {
         grid-template-columns: 1fr 1fr;
 
     }
 
-    .cards {
+    .list-layout {
+        grid-template-columns: 0.5fr 2fr 1.5fr 1fr;
+    }
+
+    .directory {
         float: left;
         width: 50%;
         padding: 10px;
     }
 
-    .cards:after {
+    .directory:after {
         content: "";
         display: table;
         clear: both;
     }
-
+    
     /* Join page css grid **************/
     .join {
         grid-column-start: 1;
