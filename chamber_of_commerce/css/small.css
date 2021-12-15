@@ -446,9 +446,23 @@ button:hover {
     font-size: 2rem;
 }
 
+.directory-title {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+    font-size: 2em;
+}
+
 .list-button {
     margin-left: 20px;
     padding: 20px;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.grid-button {
+    grid-column-start: 4;
+    grid-column-end: 5;
 }
 
 section {
