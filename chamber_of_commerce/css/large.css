@@ -111,6 +111,25 @@
         grid-row-start: 3;
         padding-bottom: 50px;
     }
+
+    .board-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 20px;
+    }
+
+    .board-title {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        justify-self: center;
+        padding: 20px;
+        font-size: 2.5rem;
+    }
+
+    .member3 {
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+
     /* Directory **********************/
     .directory {
         grid-template-columns: 1fr 1fr 1fr 1fr;
